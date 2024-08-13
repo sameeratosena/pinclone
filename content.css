@@ -1,0 +1,8 @@
+.pin-label {
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.pin-label:active {
+    background-color: rgba(255, 0, 0, 0.7); /* Change color when clicked */
+    transform: scale(0.75); /* Slightly reduce size on click */
+}
